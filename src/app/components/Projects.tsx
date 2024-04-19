@@ -11,7 +11,7 @@ import React from 'react'
 function Projects() {
   return (
     <div id='projects' className="mb-32">
-<div className="max-w-[85rem] px-4 py-20 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<div className="max-w-[90rem]  py-20 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
     <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Mis proyectos</h2>
     <p className="mt-1 text-gray-600 dark:text-neutral-400">Estos son algunos de los trabajos que  he realizado tanto de forma independiente como en empresas nacionales/internacionales.</p>
