@@ -3,10 +3,10 @@ import React from 'react'
 function Hero() {
 
   return (
-    <div className='md:mt-32'>
+    <div className='md:mt-32 w-screen'>
 <div className="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2 dark:before:bg-[url('https://preline.co/assets/svg/examples-dark/polygon-bg-element.svg')]">
   <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
-    <div className="flex justify-center">
+    <div className="flex justify-center w screen m-auto">
       <a className="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-sm text-gray-800 p-1 ps-3 rounded-full transition hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:hover:border-neutral-600 dark:text-neutral-200" href="https://www.linkedin.com/in/ignacio-silva-54824723b/" target="_blank" rel="noopener noreferrer">
             Contactame!
         <span className="py-1.5 px-2.5 inline-flex justify-center items-center gap-x-2 rounded-full bg-gray-200 font-semibold text-sm text-gray-600 dark:bg-neutral-700 dark:text-neutral-400">
@@ -15,7 +15,7 @@ function Hero() {
       </a>
     </div>
 
-    <div className="mt-5 max-w-3xl text-center mx-auto">
+    <div className="mt-5 text-center mx-auto">
       <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
         Soy <br />
         <span className="bg-clip-text bg-gradient-to-tl from-blue-400 to-blue-900 text-transparent">Ignacio Silva</span>
